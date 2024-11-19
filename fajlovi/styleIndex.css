@@ -83,3 +83,41 @@ width:155px;
 top:0px;
 right: 0px;
 }
+@media screen and (max-width: 420px) {
+    body {
+        /* Stilovi za body idu ovde */
+    }
+
+    .meni {
+        height: 190px;
+        width: 100%;
+    }
+
+    .glavnaLista {
+        flex-direction: column;
+        top: 19px;
+	left: 93px;
+    }
+
+    #desni {
+        top: 500px;
+    }
+.meni img {
+    height: 30px;
+    margin: 0px 0px -17px -4px;
+}
+#levi{
+top:853px;
+left:63px;
+}
+#tekst {
+    position: absolute;
+    top: -666px;
+    left: -65px;
+    width: 150%;
+}
+#vreme{
+top:25%;
+}
+
+}
